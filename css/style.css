@@ -1,0 +1,391 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+
+}
+/* Start General Code*/
+.container{
+    width: 80%;
+    margin: 0 auto;
+}
+ul {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+img{
+    width:100% ;
+}
+.row{
+    display: table;
+}
+.cell{
+    display: table-cell;
+}
+.p-color{
+    color: #848684;
+}
+.clearfix{
+    clear: both;
+}
+.section{
+    margin: 7% 0 ;
+}
+.btn{
+    padding: 10px 20px;
+    background: linear-gradient(0deg, #8490ff 0%, #62bdfc 100%);
+    border: transparent;
+    color: #fff;
+    margin-top: 3%;
+}
+ul li{
+    float: left;
+    padding-left: 4% ;
+}
+.active{
+    color: #8490ff;
+}
+
+.section__title{
+    text-align: center;
+}
+/* End General Code*/
+
+/* Start Header*/
+.header  .nav{
+  background-color: #fff;
+  padding: 0.9% 0; 
+  position: fixed;
+  width: 100%;
+}
+.header  .logo__img {
+   width: 10%;
+   float: left;
+   margin-right: 7%;
+}
+.header  .navigation__list {
+    width: 60%;
+    float: right;
+    padding-top: 0.5%;
+}
+
+.header  .navigation__list ul li a{
+    color: black;
+}
+.header  .navigation__list ul li a:hover{
+    color: #8490ff;
+}
+/* Start Home*/
+.home {
+    padding-top: 10%;
+    background-color: #f9f9ff;
+}
+.home .home__text{
+    width: 50%;
+    float: left;
+    margin-top: 12%; 
+}
+.home .home__text h6{
+    letter-spacing: 3px;
+}
+.home .home__text h1{
+    font-size: 350%;
+    padding: 4% 0 ;
+}
+.home .home__img{
+    width: 40%;
+    float: left;
+} 
+/* End of Home*/
+/* End of Header*/
+
+/* Start of About*/
+#about .about__img{
+    width: 47%;
+    float: left;
+    margin-right: 5%;
+} 
+#about .about__text{
+    width: 45%;
+    float: left;
+    margin-top: 3%; 
+}
+#about .about__text h1{
+    padding: 4% 0 ;
+}
+/* End of About*/
+
+/* Start of service*/
+#service .service__offers{
+    margin-top: 2%;
+}
+#service .service__offers__offer{
+    text-align: center;
+    width: 33%;
+    float: left;
+    padding:5%  ;
+}
+#service .service__offers__offer p{
+    font-size: 90%;
+}
+#service .service__offers__offer i{
+    font-size: 180%;
+}
+#service .service__offers__offer:hover i,
+#service .service__offers__offer:hover h4{
+    color: #8490ff;
+}
+/* End of service*/
+/* Start of Gradws*/
+.Grades{
+    color:#fff;
+    background: linear-gradient(0deg, #8490ff 0%, #62bdfc 100%);
+    text-align: center;
+    padding: 8% 0 12%;
+    margin-bottom: 8%;
+}
+.Grades__box{
+    float: left;
+    width: 24%;
+}
+/* End of Grades*/
+/* Start of portfolio*/
+#portfolio .portfolio__title{
+    margin-bottom: 10%;
+}
+.portfolio__projects__list ul {
+   width: 50%;
+   padding-left: 8%;
+   margin: 5% auto ;
+}
+.portfolio__projects__list ul li{
+    margin-bottom: 10%;
+    font-size: 80%;
+}
+.portfolio__projects__carts{
+    text-align: center;
+    width: 32%;
+    float: left;
+    padding: 1%;
+}
+/* End of portfolio*/
+/* Start of feedback*/
+.feedback{
+    height: 500px;
+    background-color: #f9f9ff;
+    padding: 8% 0 ;
+}
+.feedback p{
+    font-size: 90%;
+}
+.feedback__cart{
+    background-color: #fff;
+    margin-top: 5%;
+    padding: 1%;
+    float: left;
+    width: 40%;
+    margin-left: 5%;
+}
+.feedback__cart h3{
+    padding: 4% 0;
+}
+.feedback__cart:hover h3{
+    color: #8490ff;
+}
+.feedback__cart__img{
+    float: left;
+    width: 10%;
+}
+.feedback__cart__info{
+    padding-left: 15%;
+}
+/* End of feedback*/
+/* Start of pricing*/
+.pricing__cart {
+    margin-top: 8%;
+}
+.pricing__cart h3{
+    margin: 0 auto ;
+}
+.pricing__cart p{
+    margin: 8% 0;
+}
+.pricing__cart__item{
+    float: left;
+    width: 25%;
+    padding: 2%;
+    text-align: center;
+}
+.pricing__cart__item ul li p{
+    display: block;
+    text-align: justify;
+    border-top: ##f9f9ff 3px solid;
+    padding: 5% 0 0;
+}
+.pricing__cart__item__header{
+    padding: 20%;
+    border: #b2b8f8 40px solid;
+    background-color:#F9F9FF ;
+    width: 20%;
+    height: 20%;
+    line-height: 20%;
+    border-radius: 50%;
+    margin: 0 5% 5%; 
+}
+.pricing__cart__item__header h1{
+    font-size: 200%;
+}
+.pricing__cart__item button{
+    width: 100%;
+    padding: 5% 2%;
+    font-weight: bold;
+    font-size: 90%;
+    background: #F9F9FF;
+    border: transparent 1px solid;
+    display: none;
+}
+.pricing__cart__item:hover button{
+    display: block;
+}
+.pricing__cart__item:hover p,
+.pricing__cart__item:hover h1,
+.pricing__cart__item:hover h3{
+    color: #fff;
+}
+.pricing__cart__item:hover h2{
+    display: none;
+}
+.pricing__cart__item:hover{
+    background: linear-gradient(0deg, #8490ff 0%, #62bdfc 100%);
+}
+.pricing__cart__item:hover .pricing__cart__item__header{
+    background-color: #b9c0fa;
+    border: #b2b8f8 40px solid;
+}
+/* End of pricing*/
+/* Start of Blog*/
+#blog .section__title h1{
+    padding-bottom: 3%;
+}
+.blog__cart{
+    width: 33%;
+    float: left;
+    margin-top: 5%;
+    padding: 1%;
+}
+.blog__cart__img img{
+    object-fit: cover;
+}
+.blog__cart__info img{
+    width: 10%;
+    padding-right: 2%;
+}
+.blog__cart__info p{
+    display: inline;
+    font-size: 90%;
+    
+}
+.blog__cart__info .date{
+    padding-left: 20%;
+}
+.blog__cart__info i{
+    padding: 0 1%;
+}
+.blog__cart__text{
+    padding-top: 10%;
+}
+.blog__cart__text h4{
+    padding-bottom: 3%;
+    font-size: 110%;
+}
+.blog__cart:hover h4{
+    color: #8490ff;
+}
+/* End of Blog*/
+/* Start of Logo*/
+.logo{
+    color:#fff;
+    background: linear-gradient(0deg, #8490ff 0%, #62bdfc 100%);
+    text-align: center;
+    padding: 3% 0;
+    margin-bottom: 0;
+}
+.logo .logo__box{
+    width: 15%;
+    padding: 2%;
+}
+.logo .logo__box img{
+    width: 80%;
+    opacity: .5;
+}
+.logo .logo__box:hover img{
+    opacity: 1;
+}
+/* End of Logo*/
+/* Start of Footer*/
+.footer{
+    background-color: #04091E;
+    padding: 5% 0 ;
+    color: #fff;
+}
+.footer p{
+    color: #777769;
+}
+.footer__about{
+    width: 39%;
+    padding: 1%;
+}
+.footer__about p{
+    padding-top: 5%;
+}
+.footer__Newsletter{
+    width: 39%;
+    padding: 1%;
+}
+.footer__Newsletter p{
+    padding-top: 4%;
+}
+.footer__Newsletter i{
+    color: #fff;
+    padding: 5%;
+}
+.footer__Newsletter__form{
+    position: relative;
+    padding: 10% 0 ;
+}
+.footer__Newsletter__form input{
+    padding: 2% 10%;
+    width: 85%;
+    position: absolute;
+    top: 20%;
+    left: 0;
+}
+.footer__Newsletter__form button{
+    position: absolute;
+    padding: 2.5% 5%;
+    top: 5% ;
+    right: 3%;
+}
+.footer__Follow{
+    width: 20%;
+    padding: 1%;
+}
+.footer__Follow p{
+    padding-top: 4%;
+}
+.footer__Follow ul li{
+    padding-left: 5%;
+    padding-top: 5%;
+}
+.footer a{
+    color: #fff;
+    font-size: 90%;
+}
+.footer .cell{
+    vertical-align:top;
+}
+/* End of Footer*/
